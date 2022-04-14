@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;500&family=Pacifico&family=Roboto:wght@100;400&family=Square+Peg&display=swap');
+.navbar a{
+  padding: 0 80px;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.navbar a:focus {
+  color: white;
+  font-family: 'Square Peg', sans-serif;
+  font-weight: bold;
+  background-color: rgb(0, 184, 0);
+  border-radius: 40px;
+  box-shadow: 2px 2px 80px white;
+}
+
