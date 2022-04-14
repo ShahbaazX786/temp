@@ -9,9 +9,6 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { MyProjectsComponent } from './pages/my-projects/my-projects.component';
 import { MyBioComponent } from './pages/my-bio/my-bio.component';
-import { ResumeComponent } from './pages/resume/resume.component';
-import { LoginComponent } from './private/login/login.component';
-import { SignupComponent } from './private/signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -22,9 +19,6 @@ import { SignupComponent } from './private/signup/signup.component';
     AboutMeComponent,
     MyProjectsComponent,
     MyBioComponent,
-    ResumeComponent,
-    LoginComponent,
-    SignupComponent
   ],
   imports: [
     BrowserModule,
