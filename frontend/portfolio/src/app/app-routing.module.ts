@@ -1,3 +1,4 @@
+import { ResumeviewComponent } from './pages/resumeview/resumeview.component';
 import { MyProjectsComponent } from './pages/my-projects/my-projects.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path:'about', component: AboutMeComponent},
   {path:'bio', component: MyBioComponent},
   {path:'projects', component: MyProjectsComponent},
+  {path:'resume', component: ResumeviewComponent},
 ];
 
 @NgModule({
