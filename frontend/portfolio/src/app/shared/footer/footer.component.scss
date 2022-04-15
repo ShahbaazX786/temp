@@ -19,3 +19,82 @@ p text {
   width: 20px;
   margin-right: 5px;
 }
+
+.copyright {
+  text-align: center;
+  //border-top: 1px solid rgb(49, 49, 49);
+}
+
+.container {
+  font-size: 20px;
+  //border-top: 1px solid rgb(61, 61, 61);
+  padding: 30px 50px;
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+}
+
+@media only screen and (min-width:465px) and (max-width:767px) {
+  .btn {
+    font-size: 8px;
+    font-weight: normal;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px 15px;
+  }
+  .icons{
+    height: 10px;
+    width: 10px;
+    margin-right: 1px
+  }
+
+  .container {
+    font-size: 14px;
+    //border-top: 1px solid rgb(61, 61, 61);
+    padding: 30px 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (min-width:100px) and (max-width:464px) {
+  .btn {
+    font-size: 5px;
+    font-weight: normal;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 1px 2px;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .container {
+    font-size: 8px;
+    //border-top: 1px solid rgb(61, 61, 61);
+    padding: 1px 4px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  h5 {
+    font-size: 8px;
+  }
+}
